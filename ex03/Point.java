@@ -3,6 +3,11 @@ public class Point {
   private int x;
   private int y;
 
+  public static int X_MIN;
+  public static int X_MAX;
+  public static int Y_MIN;
+  public static int Y_MAX;
+
   public int getX() {
     return x;
   }
@@ -23,7 +28,7 @@ public class Point {
     int newX = x + dx;
     int newY = y + dy;
 
-    if (Math.abs(newX) <= 100 && Math.abs(newY) <= 100) {
+    if (newX >= X_MIN && newX <= X_MAX && newY >= Y_MIN && newY <= Y_MAX) {
       x = newX;
       y = newY;
     }

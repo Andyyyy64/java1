@@ -1,0 +1,3 @@
+The == operator in Java checks if two references (in this case, p1 and p2) point to the exact same object in memory. Since p1 and p2 are two different objects (despite having the same x and y values), p1 == p2 returns false.
+
+The equals() method in Java, unless overridden, behaves the same way as the == operator for objects. It checks if two references point to the same object, not their individual contents. Since we haven't overridden the equals() method in the Point class, p1.equals(p2) also returns false.

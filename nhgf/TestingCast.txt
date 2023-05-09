@@ -1,7 +1,0 @@
-Operation 2 performs an implicit cast: it assigns a MovingPoint object to an object reference o2 of type Point.
-
-Operation 3 performs an explicit cast: it casts o2 to a MovingPoint type and assigns it to an object reference o3 of type MovingPoint.
-
-Since the MovingPoint class inherits from the Point class, object-referenced Points can reference MovingPoint objects. This is because a MovingPoint object is treated as a Point object.
-
-In operation 3, it is not possible to assign o2 to o3 without casting, since the type of o2 is Point and the type of o3 is MovingPoint, resulting in incompatible type assignments. Therefore, o2 must be explicitly cast to the MovingPoint type.

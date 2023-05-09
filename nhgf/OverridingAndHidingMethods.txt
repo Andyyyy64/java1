@@ -1,9 +1,0 @@
-Which method overrides a method in the superclass?
-The methodTwo method of the subclass ClassB overrides the methodTwo method of the superclass ClassA.
-
-Which method hides a method in the superclass?
-The methodFour method of ClassB hides the methodFour method of the superclass ClassA.
-
-What do the other methods do?
-The methodOne method of ClassB hides the methodOne method of ClassA, but does not override it because it is a static method.
-The methodThree method in ClassB attempts to override the methodThree method in ClassA, but because it is a static method, it is hidden rather than overridden.

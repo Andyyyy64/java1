@@ -5,7 +5,7 @@ class SimpleList {
         init();
     }
 
-    void init() { // Listの初期化処理
+    void init() { // リストの初期化処理
         nil = new SimpleNode();
         nil.setNext(nil);
         nil.setPrev(nil);

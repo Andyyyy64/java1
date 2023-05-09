@@ -1,0 +1,10 @@
+ How many fields does the Point have?:two
+How many fields does the MovingPoint have?:two
+How many methods does the Point have?:three
+How many methods does the MovingPoint have?:three
+
+ Are there any fields with the same meaning in the Point and MovingPoint classes?:
+Since the MovingPoint class inherits from the Point class, x and y have the same meaning in the MovingPoint class. However, the MovingPoint class has additional vx and vy fields for velocity.
+
+Are there any methods in the Point and MovingPoint classes expressing similar behavior?
+Since the MovingPoint class inherits from the Point class, the print and getDistance methods are also available in the MovingPoint class and express similar behavior. However, the MovingPoint class has added setVelocity and move methods in addition to those methods.

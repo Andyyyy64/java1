@@ -1,0 +1,20 @@
+• How many fields does the Point have?
+The Point class has 2 fields: x and y.
+
+• How many fields does the MovingPoint have?
+The MovingPoint class has 2 additional fields: vx and vy.
+
+• How many methods does the Point have?
+The Point class has 3 methods: constructor, print, and getDistance.
+
+• How many methods does the MovingPoint have?
+The MovingPoint class has 3 methods: constructor, setVelocity, and move. It also inherits the print and getDistance methods from Point.
+
+• What are the advantages that the solution to Problem C has over the solution to Problem B?
+The solution to Problem C already utilizes inheritance between Point and MovingPoint classes, promoting code reusability and reducing redundancy. The MovingPoint class extends the Point class, inheriting its fields and methods, allowing for a more organized and maintainable code structure.
+
+• Can you execute the following operation at the end of TestObjectApplication? And why?
+System.out.println(p1.getDistance(m1));
+System.out.println(p2.getDistance(m2));
+
+Yes, you can execute these operations at the end of TestObjectApplication. Since MovingPoint is a subclass of Point, it is considered a Point object as well. Therefore, the getDistance method in the Point class can accept MovingPoint objects as its parameter without any issues.

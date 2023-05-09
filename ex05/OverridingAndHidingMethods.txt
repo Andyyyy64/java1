@@ -1,0 +1,10 @@
+• Which method overrides a method in the superclass?
+In ClassB, the method methodTwo(int i) overrides the method with the same signature in the superclass ClassA.
+
+• Which method hides a method in the superclass?
+In ClassB, the static method methodOne(int i) hides the non-static method with the same signature in the superclass ClassA. Additionally, the static method methodFour(int i) hides the static method with the same signature in the superclass ClassA.
+
+• What do the other methods do?
+
+In ClassB, the method methodThree(int i) does not override the static method with the same signature in the superclass ClassA. Instead, it creates a new instance method in ClassB.
+The methods in ClassA (methodOne, methodTwo, methodThree, and methodFour) are either overridden or hidden in ClassB, as described above.

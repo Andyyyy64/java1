@@ -1,0 +1,11 @@
+⚫ Which of the above 1. - 6. operations are implicit casts?
+Operation 2 involves an implicit cast. When creating the MovingPoint object located at (3, 4) and assigning it to the object reference o2 of type Point, an implicit cast occurs.
+
+⚫ Which of the operations in 1.- 6. above are explicit casts?
+Operation 3 involves an explicit cast. When casting o2 to the MovingPoint type and assigning it to the object reference o3 of the MovingPoint type, an explicit cast is performed using the syntax: (MovingPoint) o2.
+
+⚫ Why can an object reference of type Point refer to an object of type MovingPoint?
+An object reference of type Point can refer to an object of type MovingPoint because MovingPoint is a subclass of Point. Inheritance allows a reference of a superclass to hold an object of its subclass. This is due to the concept of polymorphism in object-oriented programming, where a subclass object can be treated as an object of its superclass.
+
+⚫ In operation 3., can we assign o2 to o3 without casting and why?
+No, we cannot assign o2 to o3 without casting. Even though o2 is actually referencing an object of type MovingPoint, its declared type is Point. To assign it to a reference of type MovingPoint (o3), we need to perform an explicit cast to inform the compiler that we are aware of the type change and to ensure type compatibility.

@@ -24,7 +24,7 @@ class TwirlingRobot {
 
     switch (dir) {
       case 0:
-        newY--; // Fix the North movement direction
+        newY--; 
         break;
       case 1:
         newX++;

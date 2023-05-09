@@ -1,0 +1,14 @@
+1 Without the added statement:
+    The test() method creates a Point object with coordinates (8, 5).
+    The movePoint() method is called with the created Point object as an argument.
+    Inside the movePoint() method, the coordinates of the passed Point object are updated to (100, 120).
+    The test() method then retrieves the updated coordinates and prints them: (100, 120).
+    With the added statement p = new Point(0, 0); at the (*) position:
+
+2 The test() method creates a Point object with coordinates (8, 5).
+    The movePoint() method is called with the created Point object as an argument.
+    Inside the movePoint() method, the coordinates of the passed Point object are updated to (100, 120).
+    The statement p = new Point(0, 0); creates a new Point object with coordinates (0, 0) and assigns it to the local variable p. However, this doesn't affect the original Point object, as the reference to the original object is not changed.
+    The test() method then retrieves the updated coordinates of the original Point object and prints them: (100, 120).
+    
+In both cases, the output remains the same because adding the statement p = new Point(0, 0); only changes the local reference p inside the movePoint() method and does not affect the original Point object.

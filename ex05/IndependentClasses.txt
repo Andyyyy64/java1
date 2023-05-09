@@ -1,0 +1,17 @@
+⚫ How many fields does the Point have?
+The Point class has 2 fields: x and y.
+
+⚫ How many fields does the MovingPoint have?
+The MovingPoint class has 2 additional fields: vx and vy.
+
+⚫ How many methods does the Point have?
+The Point class has 3 methods: constructor, print, and getDistance.
+
+⚫ How many methods does the MovingPoint have?
+The MovingPoint class has 3 methods: constructor, setVelocity, and move. It also inherits the print and getDistance methods from Point.
+
+⚫ Are there any fields with the same meaning in the Point and MovingPoint classes?
+Yes, the MovingPoint class inherits the fields x and y from the Point class.
+
+⚫ Are there any methods in the Point and MovingPoint classes expressing similar behavior?
+Yes, the MovingPoint class inherits the print and getDistance methods from the Point class, so they have the same behavior in both classes.
